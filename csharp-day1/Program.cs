@@ -1,9 +1,17 @@
-﻿//1- C# Program to Check Whether a Given Number is Even or Odd
-Console.WriteLine("Enter the Number");
-float num = Console.Read();
-Console.WriteLine(num % 2 == 0 ? "Even" : "Odd");
+﻿//--------------------------------------------------------------------------------------------//
+//1- C# Program to Check Whether a Given Number is Even or Odd
+    Console.WriteLine("Enter the Number"); 
+    int num = Console.Read();
+    Console.WriteLine(num % 2 == 0 ? "Even" : "Odd");
+//-------------------------------------------------------------------------------------------//
+//2- C# Program to Print Odd Numbers in a Given Range
+//---------Type1 Given Range
+int startRange = 1, endRange = 20;
+for ( int i = startRange; i <= endRange; i++)
+{ if (i % 2 != 0) { Console.WriteLine(i); } }
 
-// C# Program to Print Odd Numbers in a Given Range
+//---------Type 2 Given Range
+
 // C# Program to Check Whether a Number is Positive or Not
 // C# Program to Find the Largest of Two Numbers
 // C# Program to Swap Two Numbers
@@ -12,3 +20,4 @@ Console.WriteLine(num % 2 == 0 ? "Even" : "Odd");
 // C# Program to Print All the Multiples of 17 which are Less than 100
 // C# Program to Find Sum of Digits of a Number
 // C# Program to Find Sum of Digits of a Number using Recursion
+
